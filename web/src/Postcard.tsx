@@ -30,6 +30,9 @@ export default function Postcard({ card, onOpen }: Props) {
       </div>
       <div className="postcard-back">
         <p className="postcard-caption">{card.caption}</p>
+        {card.engine && (
+          <p className="postcard-engine">Printed with {card.engine === 'fal' ? 'Fal Flux' : 'Grok Imagine'}</p>
+        )}
         {card.cast.length > 0 && (
           <p className="story-links">
             {card.cast.map((row) => (

@@ -1,4 +1,4 @@
-import type { CatalogPayload, Dossier, GraphPayload, LedgerSpecies, QueryResult, ScenarioResult } from './types'
+import type { CatalogPayload, Dossier, GraphPayload, ImageModel, LedgerSpecies, QueryResult, ScenarioResult } from './types'
 
 const API_ROOT = (import.meta.env.VITE_API_URL || '/api').replace(/\/$/, '')
 
@@ -35,11 +35,11 @@ export async function removeSpecies(id: string): Promise<QueryResult> {
   return res.json()
 }
 
-export async function runScenario(text: string): Promise<ScenarioResult> {
+export async function runScenario(text: string, imageModel: ImageModel = 'grok'): Promise<ScenarioResult> {
   const res = await fetch(apiUrl('/scenario'), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ text }),
+    body: JSON.stringify({ text, image_model: imageModel }),
   })
   if (!res.ok) {
     const body = await res.json().catch(() => ({}))

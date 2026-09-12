@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import re
 
-from api.fal import generate_still
+from api.images import generate_still
 
 # Style comes AFTER the subject. Flux Schnell latches onto the first tokens,
 # so "vintage Yellowstone postcard" first paints bison and geysers and drops aliens.
@@ -135,8 +135,10 @@ def plan_postcard(
     }
 
 
-async def render_postcard(card: dict) -> dict:
-    url = await generate_still(card["prompt"])
+async def render_postcard(card: dict, image_model: str | None = None) -> dict:
+    url = await generate_still(card["prompt"], image_model)
     public = {k: v for k, v in card.items() if k != "prompt"}
     public["image_url"] = url
+    kind = (image_model or "grok").strip().lower()
+    public["engine"] = "fal" if kind in {"fal", "flux", "schnell"} else "grok"
     return public

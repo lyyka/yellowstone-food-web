@@ -9,7 +9,7 @@
 - Keep Fal AI postcard prompts tightly faithful to the visitor's premise so generated images match the asked scenario.
 - Make social/link-preview title, description, and image catchy and fun, featuring nature and animals.
 - Species admin should support standard CRUD plus CSV bulk import with a downloadable example file.
-- Supply xAI and Fal credentials through `.env` (`XAI_API_KEY`, `FAL_KEY`); do not commit secrets.
+- Supply xAI credentials through `.env` (`XAI_API_KEY`); Fal (`FAL_KEY`) is an optional postcard fallback. Do not commit secrets.
 
 ## Learned Workspace Facts
 
@@ -18,7 +18,7 @@
 - Stack is FastAPI (`api/`, uvicorn on port 8000) and Vite/React (`web/`, port 5173).
 - Graph snapshot lives at `data/graphs/yellowstone-mammals.json`; refresh with `scripts/ingest_globi.py`.
 - xAI Grok (`XAI_API_KEY`, default `XAI_MODEL=grok-4`) interprets and narrates scenarios.
-- Fal AI (`FAL_KEY`, default `fal-ai/flux/schnell`) generates souvenir postcard stills.
+- xAI Grok Imagine (`XAI_IMAGE_MODEL`, default `grok-imagine-image-2.0`) generates souvenir postcard stills; Fal Flux is the fallback if xAI returns nothing.
 - Imaginative visitor prompts are first-class imagine/postcard scenarios, not forced species-removal plans.
 - Main surfaces are Ask (prompt + history + postcard), species catalog/dossier, and Manage (CRUD/CSV).
 - Open Graph / Twitter previews use `VITE_PUBLIC_ORIGIN` as the absolute site origin.

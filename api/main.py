@@ -42,6 +42,7 @@ class QueryBody(BaseModel):
 
 class ScenarioBody(BaseModel):
     text: str
+    image_model: str | None = None
 
 
 class SpeciesBody(BaseModel):
@@ -239,7 +240,7 @@ async def run_scenario(body: ScenarioBody) -> dict:
             plan,
             focus_ids=applied.focus_ids or applied.removed_ids,
         ),
-        render_postcard(card),
+        render_postcard(card, image_model=body.image_model),
     )
     fallback_story = (
         result.story

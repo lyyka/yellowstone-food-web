@@ -3,13 +3,25 @@ import Postcard from './Postcard'
 import RichStory from './RichStory'
 import { runScenario } from './api'
 import { emptyChat, loadHistory, saveHistory, upsertChat, type Chat, type ChatTurn } from './chatHistory'
-import type { MentionSpecies, ScenarioResult } from './types'
+import type { ImageModel, MentionSpecies, ScenarioResult } from './types'
 
 const IDEAS = [
   'What if aliens attacked Yellowstone?',
   'What if everyone tried to gray wolf?',
   'What if all the hunters disappeared?',
 ]
+
+const IMAGE_KEY = 'ask-image-model'
+
+function readImageModel(): ImageModel {
+  try {
+    const raw = localStorage.getItem(IMAGE_KEY)
+    if (raw === 'fal' || raw === 'grok') return raw
+  } catch {
+    /* ignore */
+  }
+  return 'grok'
+}
 
 type Turn = {
   prompt: string
@@ -30,6 +42,7 @@ export default function AskPage({ mentions, onOpen, header }: Props) {
   const [text, setText] = useState('')
   const [busy, setBusy] = useState(false)
   const [logOpen, setLogOpen] = useState(false)
+  const [imageModel, setImageModel] = useState<ImageModel>(readImageModel)
   const field = useRef<HTMLTextAreaElement>(null)
   const bottom = useRef<HTMLDivElement>(null)
 
@@ -41,6 +54,14 @@ export default function AskPage({ mentions, onOpen, header }: Props) {
   useEffect(() => {
     saveHistory(chats, activeId)
   }, [chats, activeId])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(IMAGE_KEY, imageModel)
+    } catch {
+      /* ignore */
+    }
+  }, [imageModel])
 
   useEffect(() => {
     field.current?.focus()
@@ -92,7 +113,7 @@ export default function AskPage({ mentions, onOpen, header }: Props) {
     const pending = [...turns, { prompt: q }]
     writeTurns(pending)
     try {
-      const result = await runScenario(q)
+      const result = await runScenario(q, imageModel)
       writeTurns([...turns, { prompt: q, result }])
     } catch (err) {
       writeTurns([
@@ -173,7 +194,9 @@ export default function AskPage({ mentions, onOpen, header }: Props) {
                   {turn.error && <p className="error">{turn.error}</p>}
                   {turn.result && <ScenarioOut result={turn.result} mentions={mentions} onOpen={onOpen} />}
                   {!turn.result && !turn.error && busy && i === turns.length - 1 && (
-                    <p className="ask-wait">Printing your postcard…</p>
+                    <p className="ask-wait">
+                      Printing your postcard with {imageModel === 'fal' ? 'Fal Flux' : 'Grok Imagine'}…
+                    </p>
                   )}
                 </li>
               ))}
@@ -208,6 +231,17 @@ export default function AskPage({ mentions, onOpen, header }: Props) {
               placeholder={live ? 'Ask another what-if…' : 'What if aliens attacked Yellowstone?'}
             />
             <div className="composer-bar">
+              <label className="composer-model">
+                <span className="visually-hidden">Postcard model</span>
+                <select
+                  value={imageModel}
+                  disabled={busy}
+                  onChange={(e) => setImageModel(e.target.value === 'fal' ? 'fal' : 'grok')}
+                >
+                  <option value="grok">Grok Imagine</option>
+                  <option value="fal">Fal Flux</option>
+                </select>
+              </label>
               <span className="composer-hint">{busy ? 'Asking…' : 'Enter to ask · Shift+Enter for a line'}</span>
               <button type="submit" className="experiment" disabled={busy || !text.trim()}>
                 {busy ? 'Asking' : 'Ask'}

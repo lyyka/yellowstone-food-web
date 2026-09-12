@@ -85,12 +85,15 @@ export type Effect = {
 
 export type StoryCast = { id: string; label: string }
 
+export type ImageModel = 'grok' | 'fal'
+
 export type Postcard = {
   title: string
   caption: string
   image_url: string | null
   photos: string[]
   cast: StoryCast[]
+  engine?: ImageModel
 }
 
 export type ScenarioResult = {
