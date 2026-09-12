@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import AlbumPage from './AlbumPage'
 import AskPage from './AskPage'
 import Catalog from './Catalog'
 import ManagePage from './ManagePage'
@@ -8,12 +9,18 @@ import { buildMentionIndex } from './mentions'
 import type { CatalogPayload, MentionSpecies, SpeciesNode } from './types'
 import './App.css'
 
-type Route = { page: 'ask' } | { page: 'guide' } | { page: 'manage' } | { page: 'species'; id: string }
+type Route =
+  | { page: 'ask' }
+  | { page: 'guide' }
+  | { page: 'album' }
+  | { page: 'manage' }
+  | { page: 'species'; id: string }
 
 function readRoute(): Route {
   const raw = window.location.hash.replace(/^#\/?/, '')
   if (!raw || raw === 'ask') return { page: 'ask' }
   if (raw === 'guide') return { page: 'guide' }
+  if (raw === 'album') return { page: 'album' }
   if (raw === 'manage') return { page: 'manage' }
   return { page: 'species', id: raw }
 }
@@ -63,6 +70,9 @@ export default function App() {
       <a href="#/guide" className={route.page === 'guide' || route.page === 'species' ? 'on' : ''}>
         Field guide
       </a>
+      <a href="#/album" className={route.page === 'album' ? 'on' : ''}>
+        Album
+      </a>
       <a href="#/manage" className={route.page === 'manage' ? 'on' : ''}>
         Ledger
       </a>
@@ -81,8 +91,11 @@ export default function App() {
         <div className="shell">
           {route.page === 'manage' ? (
             <ManagePage onChanged={reloadLists} />
+          ) : route.page === 'album' ? (
+            <AlbumPage onOpen={open} />
           ) : route.page === 'species' ? (
             <SpeciesDossier
+              key={route.id}
               id={route.id}
               mentions={mentions}
               onBack={() => go('/guide')}

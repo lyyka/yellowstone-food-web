@@ -3,6 +3,7 @@ import Postcard from './Postcard'
 import RichStory from './RichStory'
 import { runScenario } from './api'
 import { emptyChat, loadHistory, saveHistory, upsertChat, type Chat, type ChatTurn } from './chatHistory'
+import { rememberPostcard } from './postcardAlbum'
 import type { ImageModel, MentionSpecies, ScenarioResult } from './types'
 
 const IDEAS = [
@@ -114,6 +115,7 @@ export default function AskPage({ mentions, onOpen, header }: Props) {
     writeTurns(pending)
     try {
       const result = await runScenario(q, imageModel)
+      if (result.postcard) rememberPostcard(q, result.postcard)
       writeTurns([...turns, { prompt: q, result }])
     } catch (err) {
       writeTurns([

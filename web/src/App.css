@@ -225,6 +225,7 @@
 
 .topnav {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   gap: 1.1rem;
   padding: 0.85rem 1.4rem 0.5rem;
@@ -938,6 +939,10 @@ input {
   color: #b7c2a8;
 }
 
+.ego-wrap {
+  position: relative;
+}
+
 .ego {
   width: 100%;
   height: auto;
@@ -947,6 +952,226 @@ input {
 
 .chip-node {
   cursor: pointer;
+}
+
+.chip-node:focus,
+.chip-node:focus-visible {
+  outline: none;
+}
+
+.ego-peek-scrim {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgba(8, 20, 16, 0.72);
+  z-index: 4;
+}
+
+.ego-peek {
+  position: relative;
+  width: min(420px, 100%);
+  display: grid;
+  grid-template-columns: 118px 1fr;
+  gap: 0.85rem;
+  padding: 0.85rem 1.7rem 0.75rem 0.7rem;
+  background: var(--bone);
+  color: var(--ink);
+  border: 1px solid #c9b896;
+  box-shadow: 10px 16px 0 rgba(8, 20, 16, 0.45);
+}
+
+.ego-peek img,
+.ego-peek .tip-ph {
+  width: 118px;
+  height: 118px;
+  object-fit: cover;
+  background: #d7c9a8;
+}
+
+.ego-peek-role {
+  margin: 0 0 0.2rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.62rem;
+  color: var(--ember);
+}
+
+.ego-peek .tip-common {
+  font-size: 1.35rem;
+}
+
+.ego-peek-up,
+.ego-peek-down {
+  margin: 0 0 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.ego-peek-up {
+  color: #2d6a3a;
+}
+
+.ego-peek-down {
+  color: #8a331f;
+}
+
+.ego-peek-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  margin-top: 0.35rem;
+}
+
+.ego-peek-open {
+  background: var(--ember);
+  color: var(--paper);
+  border: 0;
+  padding: 0.42rem 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  cursor: pointer;
+}
+
+.ego-peek .wiki {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid rgba(19, 32, 25, 0.28);
+  padding: 0.38rem 0.6rem;
+  font-size: 0.78rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ego-peek-close {
+  position: absolute;
+  top: 0.2rem;
+  right: 0.35rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.album-empty {
+  margin-top: 1.2rem;
+  color: #d7d0bf;
+}
+
+.album-empty a {
+  color: var(--lichen);
+}
+
+.album-grid {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1.9rem 1.4rem;
+}
+
+.album-tile {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--bone);
+  color: var(--ink);
+  border: 0;
+  padding: 0.55rem 0.55rem 0;
+  cursor: pointer;
+  position: relative;
+  box-shadow:
+    8px 12px 0 rgba(8, 20, 16, 0.4),
+    0 0 0 1px #c9b896;
+}
+
+.album-tile.t-0 {
+  transform: rotate(-2.4deg);
+}
+.album-tile.t-1 {
+  transform: rotate(1.8deg);
+}
+.album-tile.t-2 {
+  transform: rotate(-0.8deg);
+}
+.album-tile.t-3 {
+  transform: rotate(2.2deg);
+}
+.album-tile.t-4 {
+  transform: rotate(-1.6deg);
+}
+
+.album-tile:hover,
+.album-tile:focus-visible {
+  transform: rotate(0deg) translateY(-6px);
+  outline: none;
+}
+
+.album-tile img,
+.album-tile .story-ph {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.album-tile-cap {
+  display: block;
+  padding: 0.5rem 0.1rem 0.7rem;
+}
+
+.album-tile-cap em {
+  display: block;
+  font-style: normal;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.58rem;
+  color: var(--ember);
+}
+
+.album-tile-cap strong {
+  display: block;
+  margin-top: 0.15rem;
+  font-family: Fraunces, Georgia, serif;
+  font-weight: 500;
+  font-size: 1.12rem;
+  letter-spacing: -0.02em;
+}
+
+.album-scrim {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  overflow: auto;
+  padding: 2rem 1rem 3rem;
+  background: rgba(8, 20, 16, 0.86);
+}
+
+.album-lightbox {
+  width: min(560px, 100%);
+  margin: 0 auto;
+}
+
+.album-prompt {
+  margin: 0 0 0.8rem;
+  color: #c9b896;
+  font-size: 0.92rem;
+}
+
+.album-lightbox-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 1rem;
 }
 
 .lesson {

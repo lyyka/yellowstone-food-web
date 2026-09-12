@@ -144,7 +144,7 @@ export default function SpeciesDossier({ id, mentions, onBack, onOpen }: Props) 
         <div className="web-head">
           <div>
             <h2>This species’ web</h2>
-            <p>Only direct partners — predators above, foods below. Click a box to open that species.</p>
+            <p>Only direct partners — predators above, foods below. Click a portrait for a quick look.</p>
           </div>
           <button type="button" className="experiment" onClick={() => void onWhatIf()} disabled={busy}>
             {busy ? 'Tracing knock-ons…' : `What if we remove ${name}?`}
