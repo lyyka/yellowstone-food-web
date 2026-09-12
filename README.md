@@ -1,6 +1,18 @@
 # What if the web breaks?
 
-An educational Yellowstone food-web playground. You pick a mammal, remove it, and watch documented knock-on effects light up — wolves, elk, willow, the classic cascade — told in plain language.
+An educational Yellowstone food-web playground. Ask the park a wild what-if, meet a mammal, remove it, and watch documented knock-ons light up — wolves, elk, willow, the classic cascade — told in plain language. You leave with a souvenir postcard.
+
+**Play it:** [yellowstone-what-ifs.onrender.com](https://yellowstone-what-ifs.onrender.com)
+
+![Ask the park a catastrophe](docs/screenshots/ask.jpg)
+
+![Yellowstone mammal field guide](docs/screenshots/guide.jpg)
+
+![American Beaver field notes](docs/screenshots/dossier.jpg)
+
+![This species’ web around beaver](docs/screenshots/web.jpg)
+
+![Quick-look popup on a graph node](docs/screenshots/peek.jpg)
 
 Data is **not** a full Earth dump. The snapshot is:
 
@@ -26,7 +38,7 @@ cd web && npm install && npm run dev
 
 Open http://localhost:5173
 
-Optional Grok narration: copy `.env.example` to `.env` and set `XAI_API_KEY`. Without it, template stories still run.
+Optional Grok narration: copy `.env.example` to `.env` and set `XAI_API_KEY`. Without it, template stories still run. Postcard stills use Grok Imagine by default (`XAI_API_KEY`); Fal Flux is an optional fallback (`FAL_KEY`).
 
 ## Refresh the graph
 
