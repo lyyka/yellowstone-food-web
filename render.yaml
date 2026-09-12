@@ -1,0 +1,26 @@
+# Render Blueprint. Secrets (XAI_API_KEY, FAL_KEY) are set in the dashboard / MCP.
+services:
+  - type: web
+    name: yellowstone-what-ifs-api
+    runtime: python
+    plan: free
+    region: frankfurt
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: XAI_MODEL
+        value: grok-4
+      - key: FAL_IMAGE_MODEL
+        value: fal-ai/flux/schnell
+  - type: web
+    name: yellowstone-what-ifs
+    runtime: static
+    buildCommand: cd web && npm ci && npm run build
+    staticPublishPath: ./web/dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://yellowstone-what-ifs-api.onrender.com
+      - key: VITE_PUBLIC_ORIGIN
+        value: https://yellowstone-what-ifs.onrender.com

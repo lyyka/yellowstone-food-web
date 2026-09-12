@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
+  apiUrl,
   createSpecies,
   deleteSpecies,
   fetchLedger,
@@ -167,10 +168,10 @@ export default function ManagePage({ onChanged }: Props) {
           </p>
         </div>
         <div className="ledger-actions">
-          <a className="back" href="/api/admin/species/template.csv" download="species-ledger-example.csv">
+          <a className="back" href={apiUrl('/admin/species/template.csv')} download="species-ledger-example.csv">
             Download example CSV
           </a>
-          <a className="back" href="/api/admin/species/export.csv" download="species-ledger.csv">
+          <a className="back" href={apiUrl('/admin/species/export.csv')} download="species-ledger.csv">
             Export ledger
           </a>
           <label className="file-btn">

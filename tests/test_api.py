@@ -41,4 +41,14 @@ def test_scenario_removes_half_the_mammals():
     assert body["plan"]["action"] == "remove_fraction"
     assert len(body["removed"]) >= 1
     assert body["story"]
+    assert body["postcard"]["title"]
+
+
+def test_alien_attack_is_imagine_not_422():
+    res = client.post("/scenario", json={"text": "What if aliens attacked Yellowstone?"})
+    assert res.status_code == 200
+    body = res.json()
+    assert body["plan"]["action"] in {"imagine", "tell"}
+    assert not str(body["plan"]["action"]).startswith("remove")
+    assert body["postcard"]["title"] == "Aliens attacked Yellowstone"
 

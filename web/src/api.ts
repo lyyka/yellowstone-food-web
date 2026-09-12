@@ -1,25 +1,32 @@
 import type { CatalogPayload, Dossier, GraphPayload, LedgerSpecies, QueryResult, ScenarioResult } from './types'
 
+const API_ROOT = (import.meta.env.VITE_API_URL || '/api').replace(/\/$/, '')
+
+export function apiUrl(path: string): string {
+  const suffix = path.startsWith('/') ? path : `/${path}`
+  return `${API_ROOT}${suffix}`
+}
+
 export async function fetchCatalog(): Promise<CatalogPayload> {
-  const res = await fetch('/api/species')
+  const res = await fetch(apiUrl('/species'))
   if (!res.ok) throw new Error('Could not load the species guide')
   return res.json()
 }
 
 export async function fetchGraph(): Promise<GraphPayload> {
-  const res = await fetch('/api/graph')
+  const res = await fetch(apiUrl('/graph'))
   if (!res.ok) throw new Error('Could not load food web')
   return res.json()
 }
 
 export async function fetchDossier(id: string): Promise<Dossier> {
-  const res = await fetch(`/api/species/${id}`)
+  const res = await fetch(apiUrl(`/species/${id}`))
   if (!res.ok) throw new Error('Species not found in this web')
   return res.json()
 }
 
 export async function removeSpecies(id: string): Promise<QueryResult> {
-  const res = await fetch('/api/remove', {
+  const res = await fetch(apiUrl('/remove'), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ id }),
@@ -29,7 +36,7 @@ export async function removeSpecies(id: string): Promise<QueryResult> {
 }
 
 export async function runScenario(text: string): Promise<ScenarioResult> {
-  const res = await fetch('/api/scenario', {
+  const res = await fetch(apiUrl('/scenario'), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ text }),
@@ -42,13 +49,13 @@ export async function runScenario(text: string): Promise<ScenarioResult> {
 }
 
 export async function fetchLedger(): Promise<{ species: LedgerSpecies[]; count: number }> {
-  const res = await fetch('/api/admin/species')
+  const res = await fetch(apiUrl('/admin/species'))
   if (!res.ok) throw new Error('Could not load the ledger')
   return res.json()
 }
 
 export async function createSpecies(body: Record<string, unknown>): Promise<LedgerSpecies> {
-  const res = await fetch('/api/admin/species', {
+  const res = await fetch(apiUrl('/admin/species'), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
@@ -58,7 +65,7 @@ export async function createSpecies(body: Record<string, unknown>): Promise<Ledg
 }
 
 export async function updateSpecies(id: string, body: Record<string, unknown>): Promise<LedgerSpecies> {
-  const res = await fetch(`/api/admin/species/${id}`, {
+  const res = await fetch(apiUrl(`/admin/species/${id}`), {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(body),
@@ -68,7 +75,7 @@ export async function updateSpecies(id: string, body: Record<string, unknown>): 
 }
 
 export async function deleteSpecies(id: string): Promise<void> {
-  const res = await fetch(`/api/admin/species/${id}`, { method: 'DELETE' })
+  const res = await fetch(apiUrl(`/admin/species/${id}`), { method: 'DELETE' })
   if (!res.ok) throw new Error(await readDetail(res))
 }
 
@@ -80,7 +87,7 @@ export async function importSpeciesCsv(file: File): Promise<{
 }> {
   const data = new FormData()
   data.append('file', file)
-  const res = await fetch('/api/admin/species/import', { method: 'POST', body: data })
+  const res = await fetch(apiUrl('/admin/species/import'), { method: 'POST', body: data })
   if (!res.ok) throw new Error(await readDetail(res))
   return res.json()
 }

@@ -55,24 +55,29 @@ export default function App() {
 
   const open = (id: string) => go(`/${id}`)
 
+  const nav = (
+    <nav className="topnav">
+      <a href="#/" className={route.page === 'ask' ? 'on' : ''}>
+        Ask the web
+      </a>
+      <a href="#/guide" className={route.page === 'guide' || route.page === 'species' ? 'on' : ''}>
+        Field guide
+      </a>
+      <a href="#/manage" className={route.page === 'manage' ? 'on' : ''}>
+        Ledger
+      </a>
+    </nav>
+  )
+
   return (
     <div className={route.page === 'ask' ? 'frame ask-frame' : 'frame'}>
       <div className="grain" aria-hidden />
-      <nav className="topnav">
-        <a href="#/" className={route.page === 'ask' ? 'on' : ''}>
-          Ask the web
-        </a>
-        <a href="#/guide" className={route.page === 'guide' || route.page === 'species' ? 'on' : ''}>
-          Field guide
-        </a>
-        <a href="#/manage" className={route.page === 'manage' ? 'on' : ''}>
-          Ledger
-        </a>
-      </nav>
       {error && <p className="error banner">{error}</p>}
       {route.page === 'ask' ? (
-        <AskPage mentions={mentions} onOpen={open} />
+        <AskPage mentions={mentions} onOpen={open} header={nav} />
       ) : (
+        <>
+          {nav}
         <div className="shell">
           {route.page === 'manage' ? (
             <ManagePage onChanged={reloadLists} />
@@ -89,6 +94,7 @@ export default function App() {
             <p className="loading">Gathering the park checklist…</p>
           )}
         </div>
+        </>
       )}
     </div>
   )

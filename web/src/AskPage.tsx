@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import Postcard from './Postcard'
 import RichStory from './RichStory'
 import { runScenario } from './api'
@@ -20,9 +20,10 @@ type Turn = {
 type Props = {
   mentions: MentionSpecies[]
   onOpen: (id: string) => void
+  header: ReactNode
 }
 
-export default function AskPage({ mentions, onOpen }: Props) {
+export default function AskPage({ mentions, onOpen, header }: Props) {
   const initial = useMemo(() => loadHistory(), [])
   const [chats, setChats] = useState<Chat[]>(initial.chats)
   const [activeId, setActiveId] = useState(initial.activeId)
@@ -107,13 +108,16 @@ export default function AskPage({ mentions, onOpen }: Props) {
     <div className="ask-studio">
       <aside className={`ask-log ${logOpen ? 'open' : ''}`}>
         <div className="ask-log-bar">
-          <p className="kicker">Past what-ifs</p>
-          <button type="button" className="experiment" onClick={startNew} disabled={busy || !live}>
+          <div>
+            <p className="ask-log-mark">Trail register</p>
+            <h2>Past what-ifs</h2>
+          </div>
+          <button type="button" className="ask-log-new" onClick={startNew} disabled={busy || !live}>
             New
           </button>
         </div>
         {history.length === 0 ? (
-          <p className="ask-log-empty">Nothing in the log yet. Ask a catastrophe and it will file itself here.</p>
+          <p className="ask-log-empty">Ask a catastrophe and it files itself here — a stack of postcards, not a second menu.</p>
         ) : (
           <ul>
             {history.map((chat) => (
@@ -140,9 +144,11 @@ export default function AskPage({ mentions, onOpen }: Props) {
         )}
       </aside>
 
-      <div className={`ask-root ${live ? 'live' : 'idle'}`}>
+      <div className="ask-main">
+        {header}
+        <div className={`ask-root ${live ? 'live' : 'idle'}`}>
         <button type="button" className="ask-log-toggle" onClick={() => setLogOpen((v) => !v)}>
-          {logOpen ? 'Hide log' : 'Chat log'}
+          {logOpen ? 'Hide register' : 'Trail register'}
         </button>
         <div className="ask-scroll">
           {!live && (
@@ -217,6 +223,7 @@ export default function AskPage({ mentions, onOpen }: Props) {
               ))}
             </div>
           )}
+        </div>
         </div>
       </div>
     </div>

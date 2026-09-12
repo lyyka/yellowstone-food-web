@@ -24,6 +24,11 @@ ROLEPLAY_RE = re.compile(
     r"\b(everyone|everybody|we all|i|people)\b.+\b(tried|try|became|become|acted|act like|be a|be the)\b",
     re.I,
 )
+WILD_RE = re.compile(
+    r"\b(aliens?|ufos?|spaceships?|flying saucers?|martians?|magic|wizard|time travel|"
+    r"dinosaurs?|dragons?|zombies?|kaiju|godzilla|the moon)\b",
+    re.I,
+)
 
 
 @dataclass
@@ -55,6 +60,12 @@ def parse_scenario_rules(text: str) -> ScenarioPlan:
         return ScenarioPlan(action="remove_guild", guild="grazers", rationale="Remove grazers and prey mammals.")
     if PLANTS_RE.search(raw) and re.search(r"\b(all|every|remove|gone|disappear)\b", raw, re.I):
         return ScenarioPlan(action="remove_guild", guild="plants", rationale="Remove plant foods from the snapshot.")
+    if WILD_RE.search(raw):
+        return ScenarioPlan(
+            action="imagine",
+            names=_names_in_text(raw),
+            rationale="Paint the visitor's wild what-if as a Yellowstone souvenir story.",
+        )
     if ROLEPLAY_RE.search(raw) or (
         not re.search(r"\b(remove|extinct|wipe|disappear|gone)\b", raw, re.I)
         and _names_in_text(raw)
@@ -166,6 +177,8 @@ async def interpret_with_grok(web: FoodWeb, prompt: str, fallback: ScenarioPlan)
         return fallback
     if fallback.action == "imagine" and str(action).startswith("remove"):
         return fallback
+    if WILD_RE.search(prompt):
+        action = "imagine"
     return ScenarioPlan(
         action=action,
         fraction=data.get("fraction"),
@@ -220,7 +233,7 @@ async def narrate_scenario(
         (
             f'The visitor asked, exactly: "{prompt}"\n\n'
             f"What we think they meant: {plan.rationale}\n\n"
-            f"Park notebook (optional color, not a cage):\n{notes or 'No cascade this time — just the visitor's premise and the park as a stage.'}\n\n"
+            f"Park notebook (optional color, not a cage):\n{notes or 'No cascade this time — just the visitor premise and the park as a stage.'}\n\n"
             f"{task}"
         ),
         temperature=0.94 if plan.action == "imagine" else 0.92,
