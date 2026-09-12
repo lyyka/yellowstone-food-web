@@ -1,0 +1,3814 @@
+{
+  "meta": {
+    "region": "Yellowstone National Park",
+    "place_id": 10211,
+    "sources": [
+      "iNaturalist",
+      "Global Biotic Interactions (GloBI)"
+    ],
+    "disclaimer": "Interactions are documented records, not a complete local food web or abundance model. Some classic cascade links are seeded for education when GloBI is sparse."
+  },
+  "nodes": [
+    {
+      "id": "ochotona-princeps",
+      "name": "Ochotona princeps",
+      "common_name": "American Pika",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 171,
+      "photo_url": "https://static.inaturalist.org/photos/554486954/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/American_pika",
+      "external_ids": [
+        "COL:48DGN",
+        "EOL:133021"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "boraginales",
+      "name": "Boraginales",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Plantae | Viridiplantae | Streptophyta | Embryophyta | Tracheophyta | Spermatophytina | Magnoliopsida | Asteranae | Boraginales",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "ITIS:846605"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "neogale-frenata",
+      "name": "Neogale frenata",
+      "common_name": "Long-tailed Weasel",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 30,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/664130712/medium.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Long-tailed_weasel",
+      "external_ids": [
+        "COL:R6LW4"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "populus-tremuloides",
+      "name": "Populus tremuloides",
+      "common_name": "Quaking aspen",
+      "rank": "species",
+      "path": "Life | Cellular Organisms | Eukaryota | Archaeplastida | Chloroplastida | Streptophyta | Embryophytes | Tracheophyta | Spermatophytes | Angiosperms | Eudicots | Superrosids | Rosids | Malpighiales | Salicaceae | Populus | Populus tremuloides",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "EOL:466982"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "martes",
+      "name": "Martes",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Animalia | Chordata | Mammalia | Carnivora | Mustelidae | Martes",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "GBIF:2433765"
+      ],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "cervus",
+      "name": "Cervus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Artiodactyla | Cervidae | Cervinae | Cervini | Cervus",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:62K9X"
+      ],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "neotamias-minimus",
+      "name": "Neotamias minimus",
+      "common_name": "Least Chipmunk",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 181,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28601082/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Least_chipmunk",
+      "external_ids": [],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "peromyscus",
+      "name": "Peromyscus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Rodentia | Myomorpha | Muroidea | Cricetidae | Neotominae | Peromyscus",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:6LPG"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "populus",
+      "name": "Populus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Malpighiales | Salicaceae | Saliceae | Populus",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:63PVP"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "neogale-vison",
+      "name": "Neogale vison",
+      "common_name": "American Mink",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 1,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181264783/medium.jpeg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/American_mink",
+      "external_ids": [
+        "COL:R6M2J",
+        "NCBI:452646"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "oreamnos-americanus",
+      "name": "Oreamnos americanus",
+      "common_name": "Mountain Goat",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 249,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18929544/medium.jpeg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Mountain_goat",
+      "external_ids": [
+        "EOL:328659"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "microtus",
+      "name": "Microtus",
+      "common_name": "Voles",
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Rodentia | Myomorpha | Muroidea | Cricetidae | Arvicolinae | Microtus",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:5SL9"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "populus-balsamifera",
+      "name": "Populus balsamifera",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Malpighiales | Salicaceae | Saliceae | Populus | Populus balsamifera",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:4LVJS"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "alces-alces",
+      "name": "Alces alces",
+      "common_name": "Moose",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 530,
+      "photo_url": "https://static.inaturalist.org/photos/335160686/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Moose",
+      "external_ids": [
+        "COL:BHC3",
+        "WD:Q12010961",
+        "EOL:328654"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "myotis-ciliolabrum",
+      "name": "Myotis ciliolabrum",
+      "common_name": "Western Small-footed Myotis",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 1,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50245212/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Western_small-footed_bat",
+      "external_ids": [],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "marmota",
+      "name": "Marmota",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Rodentia | Sciuromorpha | Sciuridae | Xerinae | Marmotini | Marmota",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:5LHJ"
+      ],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "mephitis",
+      "name": "Mephitis",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Carnivora | Caniformia | Mephitidae | Mephitis",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:5P76"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "cornus-sericea",
+      "name": "Cornus sericea",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Cornales | Cornaceae | Cornoideae | Cornus | Cornus sericea",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:YGMJ"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "neotamias-umbrinus",
+      "name": "Neotamias umbrinus",
+      "common_name": "Uinta Chipmunk",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 29,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251030960/medium.jpeg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Uinta_chipmunk",
+      "external_ids": [],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "plantae",
+      "name": "Plantae",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Biota | Eukaryota | Plantae",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "WD:Q756"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "mustela-richardsonii",
+      "name": "Mustela richardsonii",
+      "common_name": "American Ermine",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 8,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162860275/medium.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/American_ermine",
+      "external_ids": [],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "sorex-navigator",
+      "name": "Sorex navigator",
+      "common_name": "Western Water Shrew",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 2,
+      "photo_url": "https://static.inaturalist.org/photos/551659271/medium.jpg",
+      "wikipedia_url": null,
+      "external_ids": [],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "sylvilagus-nuttallii",
+      "name": "Sylvilagus nuttallii",
+      "common_name": "Mountain Cottontail",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 41,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4484631/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Mountain_cottontail",
+      "external_ids": [
+        "COL:7B72H"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "erethizon-dorsatum",
+      "name": "Erethizon dorsatum",
+      "common_name": "North American Porcupine",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 16,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/688667600/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/North_American_porcupine",
+      "external_ids": [
+        "https://www.mammaldiversity.org/explore.html#genus=Erethizon&species=dorsatum&id=1001254"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "malus",
+      "name": "Malus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Rosales | Rosaceae | Amygdaloideae | Maleae | Malinae | Malus",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:5KQ9"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "viburnum-cassinoides",
+      "name": "Viburnum cassinoides",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Dipsacales | Viburnaceae | Opuloideae | Viburnum | Viburnum cassinoides",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:5BC5P"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "castor-canadensis",
+      "name": "Castor canadensis",
+      "common_name": "American Beaver",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 72,
+      "photo_url": "https://static.inaturalist.org/photos/139683466/medium.jpeg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/North_American_beaver",
+      "external_ids": [
+        "COL:RQPV",
+        "NCBI:51338",
+        "EOL:328025"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "neotamias-amoenus",
+      "name": "Neotamias amoenus",
+      "common_name": "Yellow-pine Chipmunk",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 136,
+      "photo_url": "https://static.inaturalist.org/photos/208389576/medium.jpeg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-pine_chipmunk",
+      "external_ids": [
+        "PBDB:49090"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "taraxacum-officinale",
+      "name": "Taraxacum officinale",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Asterales | Asteraceae | Cichorioideae | Cichorieae | Crepidinae | Taraxacum | Taraxacum officinale",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:54VX8",
+        "NCBI:50225"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "ovis-canadensis",
+      "name": "Ovis canadensis",
+      "common_name": "Bighorn Sheep",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 768,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61523007/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Bighorn_sheep",
+      "external_ids": [
+        "PBDB:49517",
+        "COL:5K3WS",
+        "EOL:328658",
+        "COL:4B9VG"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "myotis-volans",
+      "name": "Myotis volans",
+      "common_name": "Long-legged Myotis",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 2,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41073880/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Long-legged_myotis",
+      "external_ids": [],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "taxidea-taxus",
+      "name": "Taxidea taxus",
+      "common_name": "American Badger",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 205,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24707764/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/American_badger",
+      "external_ids": [
+        "FBC:SLB:SpecCode:68805"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "procyon-lotor",
+      "name": "Procyon lotor",
+      "common_name": "Common Raccoon",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 3,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290431922/medium.jpeg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Raccoon",
+      "external_ids": [
+        "COL:4MPXY",
+        "COL:5KNS4",
+        "WD:Q20908041",
+        "NCBI:9654",
+        "EOL:328598"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "malus-domestica",
+      "name": "Malus domestica",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Rosales | Rosaceae | Amygdaloideae | Maleae | Malinae | Malus | Malus domestica",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:7NHJZ"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "bison-bison",
+      "name": "Bison bison",
+      "common_name": null,
+      "rank": "species",
+      "path": null,
+      "in_region": false,
+      "kingdom": null,
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "canis-lupus",
+      "name": "Canis lupus",
+      "common_name": "Gray Wolf",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 1034,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43410580/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Gray_wolf",
+      "external_ids": [
+        "EOL:328607",
+        "COL:QLXL",
+        "COL:5G725",
+        "COL:7JHL7",
+        "COL:5G6ZW",
+        "COL:V5FJ4",
+        "WD:Q5032447",
+        "EOL:1243302"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "poaceae",
+      "name": "Poaceae",
+      "common_name": "Grasses",
+      "rank": "family",
+      "path": "Spermatophytes | Magnoliophyta | Liliopsida | Commelinidae | Cyperales | Poaceae",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "WD:Q43238",
+        "EOL:8223"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "tracheophyta",
+      "name": "Tracheophyta",
+      "common_name": null,
+      "rank": "genus",
+      "path": "root | cellular organisms | Eukaryota | Viridiplantae | Streptophyta | Streptophytina | Embryophyta | Tracheophyta",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "NCBI:58023",
+        "COL:TP"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "marmota-flaviventris",
+      "name": "Marmota flaviventris",
+      "common_name": "Yellow-bellied Marmot",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 983,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32635/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Yellow-bellied_marmot",
+      "external_ids": [
+        "GBIF:2437369",
+        "EOL:327985",
+        "COL:3Y84B"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "ondatra-zibethicus",
+      "name": "Ondatra zibethicus",
+      "common_name": "Muskrat",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 143,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/493463450/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Muskrat",
+      "external_ids": [
+        "COL:49JSC",
+        "EOL:313678"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "tamiasciurus-hudsonicus",
+      "name": "Tamiasciurus hudsonicus",
+      "common_name": "American Red Squirrel",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 665,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/113299756/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/American_red_squirrel",
+      "external_ids": [
+        "COL:54MTK",
+        "COL:7L649",
+        "NCBI:10009",
+        "EOL:347433"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "neotoma-cinerea",
+      "name": "Neotoma cinerea",
+      "common_name": "Bushy-tailed Woodrat",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 7,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178872/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Bushy-tailed_woodrat",
+      "external_ids": [
+        "COL:46VC8"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "mephitis-mephitis",
+      "name": "Mephitis mephitis",
+      "common_name": "Striped Skunk",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 3,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/233452676/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Striped_skunk",
+      "external_ids": [
+        "COL:3ZT5J"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "setaria",
+      "name": "Setaria",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Life | Eukaryota | Plantae | Spermatophyta | Angiospermae | Mesangiosperms | Monocots | Poales | Poaceae | Setaria",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "PBDB:460077"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "lynx-canadensis",
+      "name": "Lynx canadensis",
+      "common_name": null,
+      "rank": "species",
+      "path": null,
+      "in_region": false,
+      "kingdom": null,
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [],
+      "trophic_hint": "apex / predator"
+    },
+    {
+      "id": "vaccinium",
+      "name": "Vaccinium",
+      "common_name": "Huckleberry",
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Ericales | Ericaceae | Vaccinioideae | Vaccinieae | Vaccinium",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:85LF",
+        "NCBI:13749"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "lontra-canadensis",
+      "name": "Lontra canadensis",
+      "common_name": "North American River Otter",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 85,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172440134/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/North_American_river_otter",
+      "external_ids": [
+        "COL:3VZKQ"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "gloiosiphonia",
+      "name": "Gloiosiphonia",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Rhodophyta | Eurhodophytina | Florideophyceae | Gigartinales | Gloiosiphoniaceae | Gloiosiphonia",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:4P6P"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "microtus-drummondii",
+      "name": "Microtus drummondii",
+      "common_name": "Western Meadow Vole",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 1,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411429470/medium.jpeg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Western_meadow_vole",
+      "external_ids": [],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "peromyscus-sonoriensis",
+      "name": "Peromyscus sonoriensis",
+      "common_name": "Western Deer Mouse",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 11,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14784248/medium.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Western_deer_mouse",
+      "external_ids": [],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "callospermophilus-lateralis",
+      "name": "Callospermophilus lateralis",
+      "common_name": "Common Golden-mantled Ground Squirrel",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 737,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2519439/medium.JPG",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-mantled_ground_squirrel",
+      "external_ids": [
+        "WD:Q21727451",
+        "COL:PW74",
+        "COL:5G536",
+        "EOL:328006"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "odocoileus-virginianus",
+      "name": "Odocoileus virginianus",
+      "common_name": "White-tailed Deer",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 47,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110157765/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/White-tailed_deer",
+      "external_ids": [
+        "WD:Q2946631",
+        "COL:48NBQ",
+        "EOL:328652",
+        "ITIS:898469",
+        "COL:5JYBQ",
+        "EOL:1240158",
+        "COL:5JYBS"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "odocoileus",
+      "name": "Odocoileus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Artiodactyla | Cervidae | Capreolinae | Odocoileini | Odocoileus",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:66TN"
+      ],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "ursus-arctos",
+      "name": "Ursus arctos",
+      "common_name": "Brown Bear",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 264,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1491897/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Brown_bear",
+      "external_ids": [
+        "FBC:SLB:SpecCode:69193",
+        "NCBI:116960",
+        "EOL:328581",
+        "NCBI:563924"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "artemisia",
+      "name": "Artemisia",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Asterales | Asteraceae | Asteroideae | Anthemideae | Artemisiinae | Artemisia",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:62CHR",
+        "WORMS:426064"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "magnoliopsida",
+      "name": "Magnoliopsida",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:MG",
+        "ITIS:18063"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "clethrionomys-gapperi",
+      "name": "Clethrionomys gapperi",
+      "common_name": "Southern Red-backed Vole",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 8,
+      "photo_url": "https://static.inaturalist.org/photos/9268043/medium.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Southern_red-backed_vole",
+      "external_ids": [],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "lepus-townsendii",
+      "name": "Lepus townsendii",
+      "common_name": "White-tailed Jackrabbit",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 34,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32697869/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/White-tailed_jackrabbit",
+      "external_ids": [
+        "COL:6Q223"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "salix",
+      "name": "Salix",
+      "common_name": "Willow",
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Malpighiales | Salicaceae | Saliceae | Salix",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:7BWB"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "neotoma",
+      "name": "Neotoma",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Rodentia | Myomorpha | Muroidea | Cricetidae | Neotominae | Neotoma",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:62WM",
+        "NCBI:42407"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "picea-glauca",
+      "name": "Picea glauca",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Pinopsida | Pinidae | Pinales | Pinaceae | Picea | Picea glauca",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:4HQ2V"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "caryophyllales",
+      "name": "Caryophyllales",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Plantae | Tracheophyta | Magnoliopsida | Caryophyllales",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "GBIF:422"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "tsuga-canadensis",
+      "name": "Tsuga canadensis",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Pinopsida | Pinidae | Pinales | Pinaceae | Tsuga | Tsuga canadensis",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:59HM6"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "lepus-americanus",
+      "name": "Lepus americanus",
+      "common_name": "Snowshoe Hare",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 171,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4361135/medium.jpeg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Snowshoe_hare",
+      "external_ids": [
+        "GBIF:2436794",
+        "COL:6PPXC",
+        "NCBI:48086"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "cervus-canadensis",
+      "name": "Cervus canadensis",
+      "common_name": "Wapiti",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 4310,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115009764/medium.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Elk",
+      "external_ids": [
+        "COL:T56G",
+        "WD:Q180404",
+        "COL:VBR8Y",
+        "EOL:328649",
+        "COL:MGRT6"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "myotis-lucifugus",
+      "name": "Myotis lucifugus",
+      "common_name": "Little Brown Bat",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 7,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11540852/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Little_brown_bat",
+      "external_ids": [
+        "COL:456FL"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "mustela",
+      "name": "Mustela",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Carnivora | Caniformia | Mustelidae | Mustelinae | Mustela",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:5VXQ"
+      ],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "rubus-spectabilis",
+      "name": "Rubus spectabilis",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Rosales | Rosaceae | Rosoideae | Rubeae | Rubus | Rubus spectabilis",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:4TLR5"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "prunus",
+      "name": "Prunus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Rosales | Rosaceae | Amygdaloideae | Amygdaleae | Prunus",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:6Y6H"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "odocoileus-hemionus",
+      "name": "Odocoileus hemionus",
+      "common_name": "Mule Deer",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 816,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/595176639/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Mule_deer",
+      "external_ids": [
+        "EOL:4446444",
+        "GBIF:2440974",
+        "WD:Q5021281",
+        "EOL:328651",
+        "COL:5JYBJ",
+        "COL:5JYBN",
+        "NCBI:9872"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "rubus-allegheniensis",
+      "name": "Rubus allegheniensis",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Rosales | Rosaceae | Rosoideae | Rubeae | Rubus | Rubus allegheniensis",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:4TJDM"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "sylvilagus",
+      "name": "Sylvilagus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Lagomorpha | Leporidae | Sylvilagus",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:7QR2"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "martes-caurina",
+      "name": "Martes caurina",
+      "common_name": "Pacific Marten",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 52,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347863998/medium.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Pacific_marten",
+      "external_ids": [
+        "COL:3Y9VS"
+      ],
+      "trophic_hint": "apex / predator"
+    },
+    {
+      "id": "trifolium",
+      "name": "Trifolium",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Fabales | Fabaceae | Trifolium",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:9CM9W"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "lynx-rufus",
+      "name": "Lynx rufus",
+      "common_name": "Bobcat",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 6,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60028871/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Bobcat",
+      "external_ids": [
+        "COL:3WSJW",
+        "COL:5JGKW",
+        "EOL:328602",
+        "COL:5JGL4",
+        "NCBI:61384"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "zapus-saltator",
+      "name": "Zapus saltator",
+      "common_name": "Northwestern Jumping Mouse",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 1,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310701395/medium.jpeg",
+      "wikipedia_url": null,
+      "external_ids": [
+        "https://www.inaturalist.org/taxa/1628140"
+      ],
+      "trophic_hint": "apex / predator"
+    },
+    {
+      "id": "antilocapra-americana",
+      "name": "Antilocapra americana",
+      "common_name": "Pronghorn",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 1821,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250039273/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Pronghorn",
+      "external_ids": [
+        "COL:5VLCR",
+        "COL:5FNZQ",
+        "EOL:328661"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "acer",
+      "name": "Acer",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Sapindales | Sapindaceae | Hippocastanoideae | Acereae | Acer",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:MLD"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "bos-bison",
+      "name": "Bos bison",
+      "common_name": "American Bison",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 7879,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297923496/medium.jpg",
+      "wikipedia_url": "https://en.wikipedia.org/wiki/American_bison",
+      "external_ids": [
+        "COL:MLPS",
+        "https://www.inaturalist.org/taxa/206809"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "sorbus-americana",
+      "name": "Sorbus americana",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Rosales | Rosaceae | Amygdaloideae | Maleae | Malinae | Sorbus | Sorbus americana",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:4YB88"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "vulpes-vulpes",
+      "name": "Vulpes vulpes",
+      "common_name": "Red Fox",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 423,
+      "photo_url": "https://static.inaturalist.org/photos/265916780/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Red_fox",
+      "external_ids": [
+        "COL:5BSG3",
+        "ITIS:726936",
+        "COL:5LSBW",
+        "COL:5LSBQ",
+        "NCBI:9627",
+        "WD:Q9095066",
+        "COL:5LSBL",
+        "COL:7L6KD",
+        "EOL:328609",
+        "COL:5LSBN"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "quercus",
+      "name": "Quercus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Fagales | Fagaceae | Quercoideae | Quercus",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:8W2YL"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "sorex",
+      "name": "Sorex",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Eulipotyphla | Soricidae | Soricinae | Soricini | Sorex",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:7JRJ"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "lepus",
+      "name": "Lepus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Lagomorpha | Leporidae | Lepus",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:5DJG"
+      ],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "canis-latrans",
+      "name": "Canis latrans",
+      "common_name": "Coyote",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 1466,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/445930842/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Coyote",
+      "external_ids": [
+        "COL:QLXJ",
+        "COL:5G6YT",
+        "EOL:328608"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "cornus",
+      "name": "Cornus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Cornales | Cornaceae | Cornoideae | Cornus",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:8VWH2"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "puma-concolor",
+      "name": "Puma concolor",
+      "common_name": "Mountain Lion",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 13,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9834553/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Cougar",
+      "external_ids": [
+        "NCBI:694476",
+        "COL:4QHKG"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "ursus-americanus",
+      "name": "Ursus americanus",
+      "common_name": "American Black Bear",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 2220,
+      "photo_url": "https://static.inaturalist.org/photos/307636014/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/American_black_bear",
+      "external_ids": [
+        "COL:7F2KC",
+        "NCBI:9643",
+        "COL:5LPW8",
+        "COL:5LPWC",
+        "COL:5LPW6",
+        "EOL:328582"
+      ],
+      "trophic_hint": "mid-web"
+    },
+    {
+      "id": "bos",
+      "name": "Bos",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Animalia | Chordata | Vertebrata | Gnathostomata | Osteichthyes | Tetrapoda | Mammalia | Theria | Eutheria | Artiodactyla | Bovidae | Bovinae | Bovini | Bos",
+      "in_region": false,
+      "kingdom": "Animalia",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:3BQW"
+      ],
+      "trophic_hint": "observed"
+    },
+    {
+      "id": "thomomys-talpoides",
+      "name": "Thomomys talpoides",
+      "common_name": "Northern Pocket Gopher",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 24,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137802002/medium.jpeg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Northern_pocket_gopher",
+      "external_ids": [
+        "GBIF:2439383",
+        "COL:56JTD"
+      ],
+      "trophic_hint": "herbivore / prey"
+    },
+    {
+      "id": "dracunculus",
+      "name": "Dracunculus",
+      "common_name": null,
+      "rank": "genus",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Liliopsida | Alismatales | Araceae | Dracunculus",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:8VX4P"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "rubus-pubescens",
+      "name": "Rubus pubescens",
+      "common_name": null,
+      "rank": "species",
+      "path": "Eukaryota | Plantae | Pteridobiotina | Tracheophyta | Magnoliopsida | Rosales | Rosaceae | Rosoideae | Rubeae | Rubus | Rubus pubescens",
+      "in_region": false,
+      "kingdom": "Plantae",
+      "observation_count": 0,
+      "photo_url": null,
+      "wikipedia_url": null,
+      "external_ids": [
+        "COL:6X9MY"
+      ],
+      "trophic_hint": "producer"
+    },
+    {
+      "id": "urocitellus-armatus",
+      "name": "Urocitellus armatus",
+      "common_name": "Uinta Ground Squirrel",
+      "rank": "species",
+      "path": "Mammalia",
+      "in_region": true,
+      "kingdom": "Animalia",
+      "observation_count": 1287,
+      "photo_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264824325/medium.jpg",
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Uinta_ground_squirrel",
+      "external_ids": [
+        "COL:7DTRN",
+        "EOL:327989"
+      ],
+      "trophic_hint": "herbivore / prey"
+    }
+  ],
+  "edges": [
+    {
+      "source": "canis-lupus",
+      "target": "alces-alces",
+      "type": "preysOn",
+      "n_records": 11,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "alces-alces",
+      "type": "preysOn",
+      "n_records": 5,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "alces-alces",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "alces-alces",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "alces-alces",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "alces-alces",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "alces-alces",
+      "target": "taraxacum-officinale",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "alces-alces",
+      "target": "trifolium",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "alces-alces",
+      "target": "salix",
+      "type": "eats",
+      "n_records": 11,
+      "sources": []
+    },
+    {
+      "source": "alces-alces",
+      "target": "populus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "alces-alces",
+      "target": "vaccinium",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "alces-alces",
+      "type": "eats",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "gloiosiphonia",
+      "target": "alces-alces",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "alces-alces",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "antilocapra-americana",
+      "type": "preysOn",
+      "n_records": 8,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "antilocapra-americana",
+      "type": "preysOn",
+      "n_records": 10,
+      "sources": []
+    },
+    {
+      "source": "antilocapra-americana",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "antilocapra-americana",
+      "target": "artemisia",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "antilocapra-americana",
+      "target": "caryophyllales",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "antilocapra-americana",
+      "target": "boraginales",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "setaria",
+      "target": "antilocapra-americana",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "antilocapra-americana",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "bos-bison",
+      "type": "preysOn",
+      "n_records": 5,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "bos-bison",
+      "type": "preysOn",
+      "n_records": 7,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "bos-bison",
+      "type": "preysOn",
+      "n_records": 7,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "bos-bison",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "martes-caurina",
+      "target": "callospermophilus-lateralis",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "callospermophilus-lateralis",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "neogale-vison",
+      "target": "callospermophilus-lateralis",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "callospermophilus-lateralis",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "neogale-frenata",
+      "target": "callospermophilus-lateralis",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "callospermophilus-lateralis",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "callospermophilus-lateralis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "mephitis-mephitis",
+      "target": "callospermophilus-lateralis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "odocoileus-hemionus",
+      "type": "preysOn",
+      "n_records": 16,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "peromyscus",
+      "type": "preysOn",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "sylvilagus",
+      "type": "preysOn",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "neotoma",
+      "type": "preysOn",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "cervus-canadensis",
+      "type": "preysOn",
+      "n_records": 9,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "ovis-canadensis",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "marmota-flaviventris",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "ondatra-zibethicus",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "neogale-frenata",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "lepus-townsendii",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "mephitis-mephitis",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "thomomys-talpoides",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "urocitellus-armatus",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "odocoileus-virginianus",
+      "type": "preysOn",
+      "n_records": 12,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "castor-canadensis",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "microtus",
+      "type": "preysOn",
+      "n_records": 7,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "procyon-lotor",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "canis-latrans",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "rubus-allegheniensis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "lepus-americanus",
+      "type": "preysOn",
+      "n_records": 14,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "canis-latrans",
+      "target": "vaccinium",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "lynx-rufus",
+      "type": "eats",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "canis-lupus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "lontra-canadensis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "ursus-americanus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "sylvilagus-nuttallii",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "sorex",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "tamiasciurus-hudsonicus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "vulpes-vulpes",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-latrans",
+      "target": "taxidea-taxus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "canis-latrans",
+      "type": "preysOn",
+      "n_records": 7,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "gloiosiphonia",
+      "target": "canis-latrans",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "odocoileus-hemionus",
+      "type": "preysOn",
+      "n_records": 19,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "cervus-canadensis",
+      "type": "preysOn",
+      "n_records": 41,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "odocoileus-virginianus",
+      "type": "preysOn",
+      "n_records": 7,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "lontra-canadensis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "neogale-vison",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "sylvilagus-nuttallii",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "microtus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "procyon-lotor",
+      "type": "preysOn",
+      "n_records": 5,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "ochotona-princeps",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "vulpes-vulpes",
+      "type": "preysOn",
+      "n_records": 5,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "neotamias-amoenus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "ondatra-zibethicus",
+      "type": "preysOn",
+      "n_records": 5,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "mephitis-mephitis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "tamiasciurus-hudsonicus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "lepus-americanus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "castor-canadensis",
+      "type": "preysOn",
+      "n_records": 5,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "thomomys-talpoides",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "castor-canadensis",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "castor-canadensis",
+      "type": "preysOn",
+      "n_records": 8,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "acer",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "populus-balsamifera",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "cornus-sericea",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "tsuga-canadensis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "rubus-spectabilis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "populus-tremuloides",
+      "type": "eats",
+      "n_records": 9,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "populus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "salix",
+      "type": "eats",
+      "n_records": 15,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "picea-glauca",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "viburnum-cassinoides",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "castor-canadensis",
+      "target": "sorbus-americana",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "castor-canadensis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "neogale-vison",
+      "target": "castor-canadensis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "castor-canadensis",
+      "type": "eats",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "dracunculus",
+      "target": "castor-canadensis",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "cervus-canadensis",
+      "type": "preysOn",
+      "n_records": 8,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "cervus-canadensis",
+      "type": "preysOn",
+      "n_records": 11,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "lepus-americanus",
+      "type": "preysOn",
+      "n_records": 11,
+      "sources": []
+    },
+    {
+      "source": "neogale-vison",
+      "target": "lepus-americanus",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "martes-caurina",
+      "target": "lepus-americanus",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "lepus-americanus",
+      "type": "preysOn",
+      "n_records": 8,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "acer",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "populus-balsamifera",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "picea-glauca",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "trifolium",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "vaccinium",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "prunus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "populus-tremuloides",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "tsuga-canadensis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "sorbus-americana",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "salix",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "populus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "cornus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-americanus",
+      "target": "viburnum-cassinoides",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "tamiasciurus-hudsonicus",
+      "target": "lepus-americanus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "lepus-americanus",
+      "type": "eats",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "mephitis-mephitis",
+      "target": "lepus-americanus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "lepus-americanus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "lepus-townsendii",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "lepus-townsendii",
+      "target": "trifolium",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lepus-townsendii",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "taxidea-taxus",
+      "target": "lepus-townsendii",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lontra-canadensis",
+      "target": "ondatra-zibethicus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "lontra-canadensis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "artemisia",
+      "target": "lontra-canadensis",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "peromyscus",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "erethizon-dorsatum",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "mephitis",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "procyon-lotor",
+      "type": "preysOn",
+      "n_records": 8,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "neotoma",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "odocoileus-virginianus",
+      "type": "preysOn",
+      "n_records": 10,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "marmota-flaviventris",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "odocoileus-hemionus",
+      "type": "preysOn",
+      "n_records": 8,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "tamiasciurus-hudsonicus",
+      "type": "preysOn",
+      "n_records": 12,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "sylvilagus",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "ondatra-zibethicus",
+      "type": "eats",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "vulpes-vulpes",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "mephitis-mephitis",
+      "type": "eats",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "thomomys-talpoides",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "cervus-canadensis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "sylvilagus-nuttallii",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "microtus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "taxidea-taxus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "neotoma-cinerea",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "lynx-rufus",
+      "target": "sorex",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "lynx-rufus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "lynx-rufus",
+      "type": "eats",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "gloiosiphonia",
+      "target": "lynx-rufus",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "marmota-flaviventris",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "marmota-flaviventris",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "martes-caurina",
+      "target": "urocitellus-armatus",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "mephitis-mephitis",
+      "target": "peromyscus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "mephitis-mephitis",
+      "target": "cornus-sericea",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "mephitis-mephitis",
+      "target": "microtus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "mephitis-mephitis",
+      "target": "rubus-pubescens",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "mephitis-mephitis",
+      "target": "odocoileus-virginianus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "mephitis-mephitis",
+      "target": "odocoileus-hemionus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "taxidea-taxus",
+      "target": "mephitis-mephitis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "mephitis-mephitis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "gloiosiphonia",
+      "target": "mephitis-mephitis",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "peromyscus",
+      "target": "myotis-lucifugus",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "procyon-lotor",
+      "target": "myotis-lucifugus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "neogale-frenata",
+      "target": "ochotona-princeps",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "neogale-frenata",
+      "target": "ondatra-zibethicus",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "neogale-frenata",
+      "target": "microtus",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "neogale-frenata",
+      "target": "tamiasciurus-hudsonicus",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "neogale-frenata",
+      "target": "sylvilagus",
+      "type": "preysOn",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "neogale-frenata",
+      "type": "preysOn",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "neogale-frenata",
+      "target": "odocoileus-virginianus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "neogale-vison",
+      "target": "peromyscus",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "neogale-vison",
+      "target": "tamiasciurus-hudsonicus",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "neogale-vison",
+      "target": "sylvilagus",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "neogale-vison",
+      "target": "ondatra-zibethicus",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "neogale-vison",
+      "target": "odocoileus-virginianus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "neogale-vison",
+      "target": "microtus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "neogale-vison",
+      "target": "sorex",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "neogale-vison",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "neotoma-cinerea",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ochotona-princeps",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "ochotona-princeps",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "odocoileus-hemionus",
+      "type": "preysOn",
+      "n_records": 31,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "odocoileus-hemionus",
+      "type": "preysOn",
+      "n_records": 14,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "odocoileus-hemionus",
+      "type": "preysOn",
+      "n_records": 5,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-hemionus",
+      "target": "rubus-spectabilis",
+      "type": "eats",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-hemionus",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 5,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-hemionus",
+      "target": "quercus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-hemionus",
+      "target": "vaccinium",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-hemionus",
+      "target": "cornus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-hemionus",
+      "target": "salix",
+      "type": "eats",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-hemionus",
+      "target": "caryophyllales",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-hemionus",
+      "target": "boraginales",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "procyon-lotor",
+      "target": "odocoileus-hemionus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "taxidea-taxus",
+      "target": "odocoileus-hemionus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "odocoileus-hemionus",
+      "type": "preysOn",
+      "n_records": 5,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "setaria",
+      "target": "odocoileus-hemionus",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "acer",
+      "type": "preysOn",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "odocoileus-virginianus",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "odocoileus-virginianus",
+      "type": "preysOn",
+      "n_records": 8,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "tsuga-canadensis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "populus-balsamifera",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "cornus-sericea",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "sorbus-americana",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "viburnum-cassinoides",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "populus-tremuloides",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "rubus-allegheniensis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "cornus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "odocoileus-virginianus",
+      "target": "quercus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "taxidea-taxus",
+      "target": "odocoileus-virginianus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "odocoileus-virginianus",
+      "type": "eats",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "procyon-lotor",
+      "target": "odocoileus-virginianus",
+      "type": "eats",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "setaria",
+      "target": "odocoileus-virginianus",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "odocoileus-virginianus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "ondatra-zibethicus",
+      "target": "poaceae",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "ondatra-zibethicus",
+      "type": "preysOn",
+      "n_records": 7,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "ondatra-zibethicus",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "procyon-lotor",
+      "target": "ondatra-zibethicus",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "ondatra-zibethicus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "ondatra-zibethicus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "dracunculus",
+      "target": "ondatra-zibethicus",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "oreamnos-americanus",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "oreamnos-americanus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "ovis-canadensis",
+      "type": "preysOn",
+      "n_records": 14,
+      "sources": []
+    },
+    {
+      "source": "ovis-canadensis",
+      "target": "caryophyllales",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ovis-canadensis",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "ovis-canadensis",
+      "target": "boraginales",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "ovis-canadensis",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "procyon-lotor",
+      "type": "preysOn",
+      "n_records": 8,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "procyon-lotor",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "procyon-lotor",
+      "target": "cornus-sericea",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "procyon-lotor",
+      "target": "rubus-pubescens",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "procyon-lotor",
+      "target": "rubus-spectabilis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "procyon-lotor",
+      "target": "quercus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "procyon-lotor",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "artemisia",
+      "target": "procyon-lotor",
+      "type": "parasiteOf",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "gloiosiphonia",
+      "target": "procyon-lotor",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "dracunculus",
+      "target": "procyon-lotor",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "mephitis",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "erethizon-dorsatum",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "taxidea-taxus",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "canis-lupus",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "vulpes-vulpes",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "ursus-americanus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "peromyscus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "sylvilagus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "puma-concolor",
+      "target": "microtus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "puma-concolor",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "sylvilagus-nuttallii",
+      "target": "artemisia",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "sylvilagus-nuttallii",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "tamiasciurus-hudsonicus",
+      "target": "acer",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "tamiasciurus-hudsonicus",
+      "type": "preysOn",
+      "n_records": 5,
+      "sources": []
+    },
+    {
+      "source": "tamiasciurus-hudsonicus",
+      "target": "salix",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "tamiasciurus-hudsonicus",
+      "target": "populus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "tamiasciurus-hudsonicus",
+      "target": "picea-glauca",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "tamiasciurus-hudsonicus",
+      "target": "cornus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "tamiasciurus-hudsonicus",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "taxidea-taxus",
+      "target": "urocitellus-armatus",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "taxidea-taxus",
+      "target": "microtus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "taxidea-taxus",
+      "target": "peromyscus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "taxidea-taxus",
+      "target": "thomomys-talpoides",
+      "type": "eats",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "thomomys-talpoides",
+      "type": "preysOn",
+      "n_records": 5,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "urocitellus-armatus",
+      "type": "preysOn",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "prunus",
+      "type": "preysOn",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "cervus-canadensis",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "populus-tremuloides",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "rubus-pubescens",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "rubus-spectabilis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "trifolium",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "taraxacum-officinale",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "cornus-sericea",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "cornus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "sorbus-americana",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-americanus",
+      "target": "vaccinium",
+      "type": "eats",
+      "n_records": 8,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "ursus-americanus",
+      "type": "eats",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "ursus-americanus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "canis-lupus",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "ursus-arctos",
+      "type": "preysOn",
+      "n_records": 3,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "trifolium",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "quercus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "rubus-allegheniensis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "cornus-sericea",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "taraxacum-officinale",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "populus-tremuloides",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "callospermophilus-lateralis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "salix",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "urocitellus-armatus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "canis-latrans",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "castor-canadensis",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "sorex",
+      "type": "preysOn",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "cervus-canadensis",
+      "type": "preysOn",
+      "n_records": 2,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "peromyscus",
+      "type": "preysOn",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "microtus",
+      "type": "preysOn",
+      "n_records": 8,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "sylvilagus",
+      "type": "preysOn",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "canis-lupus",
+      "type": "preysOn",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "prunus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "vaccinium",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "vulpes-vulpes",
+      "target": "rubus-pubescens",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "vulpes-vulpes",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "gloiosiphonia",
+      "target": "vulpes-vulpes",
+      "type": "parasiteOf",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "zapus-saltator",
+      "target": "populus",
+      "type": "eats",
+      "n_records": 1,
+      "sources": []
+    },
+    {
+      "source": "canis-lupus",
+      "target": "bison-bison",
+      "type": "preysOn",
+      "n_records": 4,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "canis-lupus",
+      "target": "ovis-canadensis",
+      "type": "preysOn",
+      "n_records": 6,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "lynx-canadensis",
+      "target": "lepus-americanus",
+      "type": "preysOn",
+      "n_records": 16,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "cervus-canadensis",
+      "target": "salix",
+      "type": "eats",
+      "n_records": 14,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "cervus-canadensis",
+      "target": "populus-tremuloides",
+      "type": "eats",
+      "n_records": 12,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "alces-alces",
+      "target": "populus-tremuloides",
+      "type": "eats",
+      "n_records": 5,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "bison-bison",
+      "target": "poaceae",
+      "type": "eats",
+      "n_records": 10,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "odocoileus-hemionus",
+      "target": "populus-tremuloides",
+      "type": "eats",
+      "n_records": 4,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    },
+    {
+      "source": "ursus-arctos",
+      "target": "vaccinium",
+      "type": "eats",
+      "n_records": 7,
+      "sources": [
+        "educational-seed: classic Yellowstone trophic links"
+      ]
+    }
+  ]
+}
